@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+}
+
+#slider{
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 95vh;
+  transition: 0.3s ;
+  border-radius: 0.5em;
+  position: relative;
+}
+
+#circles{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
