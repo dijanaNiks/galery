@@ -2,7 +2,14 @@ const slider = document.getElementById('slider')
 const circles = document.getElementById('circles')
 
 const path = "./public/galery/"
-const imgList = [`${path}1.jpg`, `${path}2.jpg`, `${path}3.jpg`]
+
+const imgList = []
+
+for (let i = 0; i < 47; i++){
+ 
+  imgList.push(`${path}1.${i}.jpg`)
+}
+
 
 let x = 0;
 let lastTime = 0;
